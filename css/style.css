@@ -20,15 +20,6 @@
     animation: pipe-animation 2s infinite linear;
 }
 
-@keyframes pipe-animation{
-    from {
-        right: -80px;
-    }
-    to{
-        right: 100%;
-    }
-}
-
 .mario{
     position: absolute;
     width: 150px;
@@ -37,6 +28,15 @@
 
 .jump{
     animation: jump 500ms  ease-out;
+}
+
+@keyframes pipe-animation{
+    from {
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
 }
 
 @keyframes jump {
