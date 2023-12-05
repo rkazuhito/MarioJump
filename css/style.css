@@ -17,7 +17,7 @@
     position: absolute; /*cada img é independente*/
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2s infinite linear;
+    animation: pipe-animation 1s infinite linear;
 }
 
 .mario{
@@ -28,6 +28,10 @@
 
 .jump{
     animation: jump 500ms  ease-out;
+}
+.pulo{
+    display: block;
+    margin: auto;
 }
 
 @keyframes pipe-animation{
