@@ -1,2 +1,2 @@
 # MarioJump
- jogo em js
+ jogo simple em js para estudo das funcionalidades
